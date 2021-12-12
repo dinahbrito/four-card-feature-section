@@ -1,0 +1,50 @@
+/* reset */
+*,
+* ::before,
+* ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* Typography */
+h1 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: .17px;
+    line-height: 2.25rem;
+}
+
+h1 span {
+    font-weight: 600;
+}
+
+h1 span, h2 {
+    color: #4D4F62;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+}
+
+.card p {
+    font-size: .81rem;
+    letter-spacing: .09px;
+    line-height: 1.44rem;
+}
+
+/* Mobile styling */
+body {
+    color: rgba(77, 79, 98, .5);
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    font-size: .94rem;
+    font-weight: 400;
+    justify-content: center;
+    letter-spacing: .1px;
+    line-height: 1.56rem;
+}
+
+
