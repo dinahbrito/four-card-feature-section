@@ -13,6 +13,7 @@ h1 {
     font-weight: 200;
     letter-spacing: .17px;
     line-height: 2.25rem;
+    margin-bottom: 1rem;
 }
 
 h1 span {
@@ -27,12 +28,14 @@ h2 {
     font-size: 1.25rem;
     font-weight: 600;
     line-height: 1.25rem;
+    margin-bottom: 1rem;
 }
 
 .card p {
     font-size: .81rem;
     letter-spacing: .09px;
     line-height: 1.44rem;
+    margin-bottom: 2.06rem;
 }
 
 /* Mobile styling */
@@ -57,10 +60,6 @@ header {
     text-align: center;
 }
 
-header p {
-    margin-top: 1rem;
-}
-
 .card {
     background-color: #FFFFFF;
     border-radius: 8px;
@@ -68,4 +67,22 @@ header p {
     margin-bottom: 1.56rem;
     overflow: hidden;
     padding: 1.75rem;
+}
+
+.card img {
+    float: right;
+}
+
+.supervisor {
+    border-top: 3.55px solid #44D3D2;
+}
+
+.team {
+    border-top: 3.55px solid #EA5454;
+}
+.karma {
+    border-top: 3.55px solid #FCAE4A;
+}
+.calculator {
+    border-top: 3.55px solid #549EF2;
 }
