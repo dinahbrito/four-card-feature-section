@@ -59,7 +59,7 @@ header {
     margin-bottom: 4.75rem;
     text-align: center;
 }
-
+/* Styling for the card */
 .card {
     background-color: #FFFFFF;
     border-radius: 8px;
@@ -73,6 +73,7 @@ header {
     float: right;
 }
 
+/* Border color for top of cards */
 .supervisor {
     border-top: 3.55px solid #44D3D2;
 }
@@ -85,4 +86,25 @@ header {
 }
 .calculator {
     border-top: 3.55px solid #549EF2;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        align-items: center;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+    }    
+
+    .card-container {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1.88rem;
+        justify-content: center;
+    }
+    .card {
+        max-width: 21.88rem;
+    }
+
 }
